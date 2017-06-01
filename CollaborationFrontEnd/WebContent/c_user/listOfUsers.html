@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<div class="listOfUsers-bg">
+		<h1 class="text-center">Find People</h1>
+
+		<br />
+
+		<div class="findpeople col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3" ng-repeat="u in users">
+			
+			<span class="users-u-username">{{u.username}}</span> 
+			
+			<span class="isonline-circle-yes" ng-if="u.online">yes</span>
+			<span ng-if="!u.online"></span> 
+				
+			<a href="" ng-click="friendRequest(u.username)"	class="addfriend-btn pull-right"> Add Friend</a>
+			
+			<br />
+			
+			<span class="users-u-role">{{u.role}}</span>
+			<br/>
+			<span class="users-u-email">{{u.email}}</span>
+			
+		
+
+		</div>
+
+	</div>
+</body>
+</html>

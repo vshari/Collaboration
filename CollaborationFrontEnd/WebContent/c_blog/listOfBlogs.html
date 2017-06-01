@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="listofBlogs-bg">
+		<h1 class="text-center">All Blogs</h1>
+		<br />
+		<div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+			<input type="text" ng-model="search.title"
+				class="listOfblogs-searchbox" placeholder="Search blog by title">
+
+			<input type="text" ng-model="search.createdBy.username"
+				class="listOfblogs-searchbox" placeholder="Search bolg by blogger">
+		</div>
+		<div
+			class="blogtitiles-blog col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3"
+			ng-repeat="blog in blogs | orderBy:'date':true | filter:search">
+
+			<span class="blogs-blog-bolgtitle">{{blog.title}}</span> <a
+				href="#/getBlogDetails/{{blog.id}}" class="view-blog-btn pull-right">VIEW</a>
+
+			<br /> <span class="blogs-blog-detail">Created By :
+				{{blog.createdBy.username}}</span> <br /> <span class="blogs-blog-detail">Created
+				On: {{blog.createdOn | date:'MM/dd/yyyy HH:mm'}}</span>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Job</title>
+
+</head>
+<body>
+	<div class="createJob-bg">
+	<h1 class="text-center">Post a Job </h1>
+		<br /> 
+		<div
+			class="createjob-form col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4">
+	
+		<form class="form-horizontal">
+			<div class="form-group">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+					<input type="text" class="createjob-input" ng-model="job.jobTitle" placeholder="Job Title">
+					<span class="highlight"></span> 
+					<span class="createjob-bar"></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+					<input type="text" class="createjob-input"	ng-model="job.jobDescription" placeholder="Job Description">
+						<span class="highlight"></span> 
+					<span class="createjob-bar"></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+					<textarea type="text" class="createjob-input" ng-model="job.qualification" placeholder="Skills Required">
+					</textarea>
+						<span class="highlight"></span> 
+					<span class="createjob-bar"></span>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+					<input type="text" class="createjob-input" ng-model="job.salary" placeholder="Salary">
+					<span class="highlight"></span> 
+					<span class="createjob-bar"></span>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+					<input type="text" class="createjob-input" ng-model="job.location" placeholder="Location">
+					<span class="highlight"></span> 
+					<span class="createjob-bar"></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+					<textarea type="text" class="createjob-input" ng-model="job.status" placeholder="Job Status">
+					</textarea>
+						<span class="highlight"></span> 
+					<span class="createjob-bar"></span>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="form-group text-center">
+					<button type="submit" ng-click="saveJob()" class="createjob-btn">CREATE JOB</button>
+				</div>
+			</div>
+
+		</form>
+	</div>
+	</div>
+	
+</body>
+</html>

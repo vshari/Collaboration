@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+
+</head>
+
+<body>
+
+	<div class="register-bg">
+
+		<h1 class="text-center">Create Account.</h1>
+		<br /> <br />
+		<div
+			class="register-form col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+						<input type="text" class="register-input"
+							data-ng-model="user.username" placeholder="Username"> <span
+							class="highlight"></span> <span class="register-bar"></span>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+						<input type="password" class="register-input"
+							data-ng-model="user.password" placeholder="Password"> <span
+							class="highlight"></span> <span class="register-bar"></span>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+						<input type="text" class="register-input"
+							data-ng-model="user.email" placeholder="Email"> <span
+							class="highlight"></span> <span class="register-bar"></span>
+					</div>
+				</div>
+				<div class="form-group ">
+					<div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+						<p
+							style="padding: 10px 10px 10px 5px; color: #767676; border-bottom: 1px solid #888888; font-size: 14px;">Select
+							Role : {{user.role}}</p>
+
+						<input type="radio" data-ng-model="user.role" value="STUDENT">Student &nbsp; 
+						<input type="radio" data-ng-model="user.role" value="EMPLOYEE">Employee &nbsp;
+						<input type="radio" data-ng-model="user.role" value="ALUMINI">Alumini
+
+					</div>
+
+				</div>
+
+				<div class="form-group text-center">
+					<button type="submit" class="register-btn"  data-ng-click="registerUser()">CREATE ACCOUNT</button>
+               </div>
+
+			</form>
+		</div>
+		<div
+			class="col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 register-message">{{errorMessage}}</div>
+	</div>
+</body>
+</html>

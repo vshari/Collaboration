@@ -1,0 +1,1211 @@
+body {
+	font-family: Segoe UI;
+	
+}
+
+.form-control {
+	border-radius: 0px;
+	color: black;
+}
+
+label {
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+ul>li {
+	display: inline;
+}
+
+.text-center {
+	position: relative;
+	
+}
+
+a, a:link, a:active, a:focus, a:visited {
+	text-decoration: none;
+}
+
+/* footer {
+	position: absolute;
+	background: black;
+	color: white;
+	width: 100%;
+	margin: 0px;
+	padding: 5px 20px 0px 20px;
+}
+
+.footer-links, .footer-links:hover, .footer-links:focus {
+	color: white;
+} */
+
+/************* Navbar - starts *************/
+.navbar {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0;
+	width: 100%;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+	position: absolute;
+	color: white;
+}
+
+.navbar-brand {
+	margin-top: -35px;
+	margin-left: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:link {
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: bolder;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active
+	{
+	color: white;
+}
+
+.caret {
+	margin-bottom: 4px;
+}
+
+/* toggle button */
+.navbar-toggle {
+	padding: 10px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: white;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active,
+	.navbar-default .navbar-toggle:focus {
+	background-color: white;
+}
+
+/*dropdown*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
+	.navbar-default .navbar-nav>.open>a:hover {
+	color: black;
+	background-color: white;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	color: white;
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.4);
+	min-width: 0px;
+	padding: 0px 0;
+	border: none;
+	border-radius: 0px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	border-radius: 0px;
+}
+
+.dropdown-menu>li>a {
+	font-size: 13px;
+	display: block;
+	padding: 15px 20px;
+	clear: both;
+	font-weight: bolder;
+	line-height: 1.42857143;
+	color: white;
+	white-space: nowrap;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	font-size: 13px;
+	padding: 15px 20px;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+	background-color: white;
+	text-decoration: none;
+	padding: 15px 20px;
+}
+
+/************* Navbar - ends *************/
+
+/************* index - starts *************/
+.profile-dropdown {
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+.profile-dropdown>.dropdown-menu {
+	width: 400px;
+	padding: 25px 35px;
+	background-color: white;
+}
+
+.profilepic-dropdown-pic {
+	display: inline;
+	float: left;
+	margin-right: 40px;
+}
+
+.profilepic-dropdown-details {
+	display: inline;
+	margin-top: 10px;
+}
+
+.profilepic-dropdown-details-username {
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.profilepic-dropdown-details-email {
+	position: absolute;
+	color: dimgray;
+	line-height: 40px;
+}
+
+.profilepic-dropdown-details-logout-btn,
+	.profilepic-dropdown-details-logout-btn:link,
+	.profilepic-dropdown-details-logout-btn:focus,
+	.profilepic-dropdown-details-logout-btn:active {
+	border: 2px solid black;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: black;
+	font-weight: bold;
+	line-height: 62px;
+	margin-left: 20px;
+}
+
+.profilepic-dropdown-details-logout-btn:hover {
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 0px;
+	background: black;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* index - ends *************/
+
+/************* home - starts *************/
+.home-part1 {
+	text-align: center;
+	color: white;
+	padding: 180px 0px 10% 0px;
+	background-color: #ffeb99;
+	height: 100%;
+	width: 100%;
+}
+
+.home-part1-heading {
+	font-family: Impact;
+	background-color: #ffeb99;
+	background-image: url("WebContent/images/logo.jpg");
+	padding: 10px;
+	margin: 0px;
+	font-size: 50px;
+}
+
+.home-part2 {
+	background-color: #ffeb99;
+	background-image: url("WebContent/images/logo.jpg");
+	height: 700px;
+	width: 100%;
+	color: white;
+}
+
+.home-register-btn, .home-register-btn:link, .home-register-btn:focus,
+	.addfriend-btn:active {
+	border: 2px solid white;
+	background: rgba(0, 0, 0, 0.0);
+	background-image: url("WebContent/images/logo.jpg");
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+
+.home-register-btn:hover {
+	text-decoration: none;
+	border: 2px solid white;
+	background-image: url("WebContent/images/logo.jpg");
+	border-radius: 0px;
+	background: white;
+	padding: 10px 40px;
+	color: indigo;
+	font-weight: bold;
+}
+/************* home - ends *************/
+
+/************* termsofservices - starts *************/
+/* .termsofservices-bg {
+	padding-top: 130px;
+	background-color: #C4C4EF;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+************ termsofservices - ends ************
+
+************ privacy - starts ************
+.privacy-bg {
+	padding-top: 130px;
+	background-color:#C4C4EF;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+************ privacy - ends ************
+
+************ contentpolicy - starts ************
+.contentpolicy-bg {
+	padding-top: 130px;
+	background-color: #C4C4EF;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+ */
+/************* contentpolicy - ends *************/
+
+/************* aboutus - starts *************/
+.aboutus-bg {
+	padding-top: 130px;
+	background-image: url("WebContent/images/logo.jpg");
+    background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+/************* aboutus - ends *************/
+
+/************* listOfUsers - starts *************/
+.listOfUsers-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	background-image: url("WebContent/images/logo.jpg");
+	color: white;
+	min-height: 700px;
+	padding-bottom: 10%;
+	overflow: auto;
+}
+
+.findpeople {
+	/* 	position: relative; */
+	color: black;
+	/* background-image: url("WebContent/images/logo.jpg"); */
+    background-color: #ffeb99;
+	padding: 15px 15px 15px 15px;
+	margin-top: 30px;
+}
+
+.isonline-circle-yes {
+	cursor: pointer;
+	margin-left: 5px;
+	font-size: 10px;
+	color: transparent;
+	background: radial-gradient(green, green);
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+.users-u-username {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.users-u-role {
+	font-size: 14px;
+	color: gray;
+}
+
+.users-u-email {
+	font-size: 14px;
+	color: gray;
+}
+
+.addfriend-btn, .addfriend-btn:link, .addfriend-btn:focus,
+	.addfriend-btn:active {
+	border: 2px solid crimson;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: crimson;
+	font-weight: bold;
+}
+
+.addfriend-btn:hover {
+	text-decoration: none;
+	border: 2px solid crimson;
+	border-radius: 0px;
+	background: crimson;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+
+/************* listOfUsers - ends *************/
+
+/************* login - starts *************/
+.login-bg {
+	padding-top: 150px;
+	background-color: #ffeb99;
+	color: white;
+	min-height: 700px;
+	padding-bottom: 15%;
+	overflow: auto;
+}
+
+.text-center {
+	position: relative;
+}
+
+.login-message {
+	margin-top: 50px;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.login-form {
+	color: black;
+	height: 225px;
+	background: white;
+	padding: 35px 0px 50px 0px;
+}
+
+.login-input {
+	margin: 0px;
+	font-size: 14px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+/* BOTTOM BARS */
+.login-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.login-bar:before, .login-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #ffeb99;
+	transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.login-bar:before {
+	left: 50%;
+}
+
+.login-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.login-input:focus ~ .login-bar:before, .login-input:focus ~ .login-bar:after
+	{
+	width: 50%;
+}
+
+.login-btn, .login-btn:link, .login-btn:focus, .login-btn:active {
+	margin-top: 5px;
+	border: 2px solid darkred;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: darkred;
+	font-weight: bold;
+}
+
+.login-btn:hover {
+	border: 2px solid darkred;
+	border-radius: 0px;
+	background: darkred;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* login - ends *************/
+
+/************* register - starts *************/
+.register-bg {
+	padding-top: 125px;
+	background-color: #ffeb99; 
+	color: white;
+	padding-bottom: 10%;
+	min-height: 700px;
+	overflow: auto;
+}
+
+.register-message {
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+}
+
+.register-form {
+	color: black;
+	height: 380px;
+	background: #ffeb99;
+	padding: 35px 0px 50px 0px;
+}
+
+.register-input {
+	margin: 0px;
+	font-size: 14px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+/* BOTTOM BARS */
+.register-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.register-bar:before, .register-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #ffeb99;
+	transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	
+}
+
+.register-bar:before {
+	left: 50%;
+}
+
+.register-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.register-input:focus ~ .register-bar:before, .register-input:focus ~
+	.register-bar:after {
+	width: 50%;
+}
+
+.register-btn, .register-btn:link, .register-btn:focus, .register-btn:active
+	{
+	margin-top: 20px;
+	border: 2px solid darkred;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: darkcyan;
+	font-weight: bold;
+}
+
+.register-btn:hover {
+	border: 2px solid darkred;
+	border-radius: 0px;
+	background: darkred;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* register - ends *************/
+
+/************* uploadpicture - starts *************/
+.uploadpicture-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 35%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.uploadpicture-form {s
+	background-color: #ffeb99;
+	text-align: center;
+	color: black;
+	padding: 35px 0px 50px 0px;
+}
+
+.uploadpicture-btn, .uploadpicture-btn:link, .uploadpicture-btn:focus,
+	.uploadpicture-btn:active {
+	margin-top: 20px;
+	border: 2px solid lime;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: lime;
+	font-weight: bold;
+}
+
+.uploadpicture-btn:hover {
+	border: 2px solid lime;
+	border-radius: 0px;
+	background: lime;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* uploadpicture - ends *************/
+
+/************* createJob - starts *************/
+.createJob-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.createjob-form {
+	color: black;
+	background: #ffeb99;
+	padding: 35px 0px 0px 0px;
+}
+
+.createjob-input {
+	margin: 0px;
+	font-size: 14px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+/* BOTTOM BARS */
+.createjob-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.createjob-bar:before, .createjob-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #ffeb99;
+	transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.createjob-bar:before {
+	left: 50%;
+}
+
+.createjob-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.createjob-input:focus ~ .createjob-bar:before, .createjob-input:focus 
+	 ~ .createjob-bar:after {
+	width: 50%;
+}
+
+.createjob-btn, .createjob-btn:link, .createjob-btn:focus,
+	.createjob-btn:active {
+	margin-top: 5px;
+	border: 2px solid orangered;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: orangered;
+	font-weight: bold;
+}
+
+.createjob-btn:hover {
+	border: 2px solid orangered;
+	border-radius: 0px;
+	background: orangered;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* createJob - ends *************/
+
+/************* jobDetail - starts *************/
+.jobDetail-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.jobdetail-card {
+	background-color: #ffeb99;
+	color: black;
+	padding: 30px 35px 30px 35px;
+}
+
+.jobdetail-heading {
+	font-weight: bold;
+}
+
+.jobdetail-nextline {
+	padding: 5px;
+	display: block;
+}
+/************* jobDetail - ends *************/
+
+/************* jobsTitles - starts *************/
+.jobsTitles-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.jobtitiles-job {
+	position: relative;
+	color: black;
+	background-color: #ffeb99;
+	padding: 15px 20px 15px 20px;
+	margin-top: 30px;
+}
+
+.job-jobtitle {
+	position: absolute;
+	margin-top: 4px;
+	font-size: 16px;
+}
+
+.jobdetails-btn, .jobdetails-btn:link, .jobdetails-btn:focus,
+	.jobdetails-btn:active {
+	border: 2px solid navy;
+	background:#ffeb99;
+	padding: 5px 20px;
+	color: navy;
+	font-weight: bold;
+}
+
+.jobdetails-btn:hover {
+	text-decoration: none;
+	border: 2px solid navy;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 5px 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/************* jobsTitles - ends *************/
+
+/************* listOfFriends - starts *************/
+.listOfFriends-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.allfriends-friend {
+	position: relative;
+	color: black;
+	background-color: white;
+	padding: 15px 20px 15px 20px;
+	margin-top: 30px;
+}
+
+.friend-username {
+	position: absolute;
+	margin-top: 4px;
+	font-size: 16px;
+}
+
+.privatechat-btn, .privatechat-btn:link, .privatechat-btn:focus,
+	.privatechat-btn:active {
+	border: 2px solid saddlebrown;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 5px 20px;
+	color: saddlebrown;
+	font-weight: bold;
+}
+
+.privatechat-btn:hover {
+	text-decoration: none;
+	border: 2px solid saddlebrown;
+	border-radius: 0px;
+	background: saddlebrown;
+	padding: 5px 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/************* listOfFriends - ends *************/
+
+/************* pendingRequest - starts *************/
+.pendingRequest-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	height: 100%;
+	min-height: 700px;
+}
+
+.pendingrequests-friend {
+	position: relative;
+	color: black;
+	background-color: #ffeb99;
+	padding: 15px 20px 20px 20px;
+	margin-top: 30px;
+}
+
+.pendingrequests-username {
+	margin-top: 3px;
+	position: absolute;
+	font-size: 16px;
+	position: absolute;
+}
+
+.pendingrequests-btn, .pendingrequests-btn:link, .pendingrequests-btn:focus,
+	.privatechat-btn:active {
+	border: 2px solid darkgreen;
+	background: #ffeb99;
+	padding: 5px 20px;
+	color: darkgreen;
+	font-weight: bold;
+	margin-top: -13px;
+	margin-left: 15px;
+}
+
+.pendingrequests-btn:hover {
+	text-decoration: none;
+	border: 2px solid darkgreen;
+	border-radius: 0px;
+	background:#ffeb99;
+	padding: 5px 20px;
+	color: white;
+	font-weight: bold;
+}
+/************* pendingRequest - ends *************/
+
+/************* chat - starts *************/
+.chat-bg {
+	padding-top: 130px;
+	background-color:#ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	min-height: 700px;
+}
+
+.chat-form {
+	color: black;
+	height: 190px;
+	background: white;
+	padding: 35px 0px 50px 0px;
+}
+
+.chat-count {
+	color: #808080;
+}
+
+.chat-input {
+	margin: 0px;
+	font-size: 14px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+/* BOTTOM BARS */
+.chat-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.chat-bar:before, .chat-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background:#ffeb99;
+	transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.chat-bar:before {
+	left: 50%;
+}
+
+.chat-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.chat-input:focus ~ .chat-bar:before, .chat-input:focus ~ .chat-bar:after
+	{
+	width: 50%;
+}
+
+.chat-btn, .chat-btn:link, .chat-btn:focus, .chat-btn:active {
+	margin-top: 5px;
+	border: 2px solid blue;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 10px 40px;
+	color: blue;
+	font-weight: bold;
+}
+
+.chat-btn:hover {
+	border: 2px solid blue;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+
+.chat-message {
+	background-color: #ffeb99;
+	padding: 20px 30px;
+	color: black;
+	margin-top: 30px;
+}
+
+/************* chat - ends *************/
+
+/************* blogDetails - starts *************/
+.blogDetails-bg {
+	padding-top: 130px;
+	background-color:#ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.blogdetail-card {
+	background-color: #ffeb99;
+	padding: 35px 50px;
+	margin-bottom: 20px;
+}
+
+.blogdetail-title {
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+}
+
+.blogdetail-byon {
+	color: dimgray;
+	font-size: 12px;
+}
+
+.blogdetail-body {
+	padding: 15px 0px;
+	color: black;
+}
+
+.viewcomments {
+	color: black;
+	background-color: white;
+	padding: 35px 50px;
+}
+
+.viewcomments-btn {
+	font-weight: bolder;
+	color: dimgray;
+}
+
+.viewcomments-btn:hover, .viewcomments-btn:active, .viewcomments-btn:focus
+	{
+	color: black;
+}
+
+.comments-card {
+	padding: 15px 10px;
+}
+
+.each-comment {
+	padding: 0px 10px 40px 10px;
+}
+
+.comment-by {
+	color: black;
+	font-weight: bold;
+}
+
+.comment-on {
+	color: dimgray;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.comment-body {
+	color: black;
+}
+
+.addcomment-form {
+	color: black;
+	background: #ffeb99;
+	padding: 30px 60px 20px 60px;
+	margin-bottom: 20px;
+}
+
+.addcomment-input {
+	margin: 0px;
+	font-size: 14px;
+	padding: 10px 10px 10px 5px;
+	display: inline;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+/* BOTTOM BARS */
+.addcomment-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.addcomment-bar:before, .addcomment-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: FireBrick;
+	transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.addcomment-bar:before {
+	left: 50%;
+}
+
+.addcomment-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.addcomment-input:focus ~ .addcomment-bar:before, .addcomment-input:focus 
+	 ~ .addcomment-bar:after {
+	width: 50%;
+}
+
+.addcomment-btn, .addcomment-btn:link, .addcomment-btn:focus,
+	.addcomment-btn:active {
+	display: inline;
+	margin-top: 20px;
+	border: 2px solid FireBrick;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px 40px;
+	color: FireBrick;
+	font-weight: bold;
+}
+
+.addcomment-btn:hover {
+	border: 2px solid FireBrick;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* blogDetails - ends *************/
+
+/************* createBlog - starts *************/
+.createBlog-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.createblog-form {
+	color: black;
+	background: #ffeb99;
+	padding: 35px 0px 0px 0px;
+}
+
+.createblog-input {
+	margin: 0px;
+	font-size: 14px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+/* BOTTOM BARS */
+.createblog-bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.createblog-bar:before, .createblog-bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #ffeb99;
+	transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.createblog-bar:before {
+	left: 50%;
+}
+
+.createblog-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.createblog-input:focus ~ .createblog-bar:before, .createblog-input:focus 
+	 ~ .createblog-bar:after {
+	width: 50%;
+}
+
+.createblog-btn, .createblog-btn:link, .createblog-btn:focus,
+	.createblog-btn:active {
+	margin-top: 5px;
+	border: 2px solid darkolivegreen;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 10px 40px;
+	color: darkolivegreen;
+	font-weight: bold;
+}
+
+.createblog-btn:hover {
+	border: 2px solid darkolivegreen;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 10px 40px;
+	color: white;
+	font-weight: bold;
+}
+/************* createBlog - ends *************/
+
+/************* listOfBlogs - starts *************/
+.listOfBlogs-bg {
+	padding-top: 130px;
+	background-color: #ffeb99;
+	color: white;
+	padding-bottom: 10%;
+	overflow: auto;
+	min-height: 700px;
+}
+
+.blogtitiles-blog {
+	position: relative;
+	color: black;
+	background-color: #ffeb99;
+	padding: 15px 20px 15px 20px;
+	margin-top: 30px;
+}
+
+.blogs-blog-bolgtitle {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.blogs-blog-detail {
+	font-size: 14px;
+	color: gray;
+}
+
+.view-blog-btn, .view-blog-btn:link, .view-blog-btn:focus,
+	.view-blog-btn:active {
+	border: 2px solid darkslategray;
+	background: #ffeb99;
+	padding: 5px 20px;
+	color: darkslategray;
+	font-weight: bold;
+}
+
+.view-blog-btn:hover {
+	text-decoration: none;
+	border: 2px solid darkslategray;
+	border-radius: 0px;
+	background: #ffeb99;
+	padding: 5px 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.listofblogs-searchbox {
+	background-color: #ffeb99;
+	display: inline;
+	font-size: 14px;
+	margin-left: 4%;
+	width: 45%;
+	padding: 5px 5px 5px 5px;
+	border: 2px solid white;
+	width: 45%;
+	color: black;
+}
+
+.listofblogs-searchbox:hover {
+	border: 2px solid white;
+}
+
+/************* listOfBlogs - ends *************/

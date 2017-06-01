@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<div class="jobDetail-bg">
+		<h1 class="text-center">Job Details</h1>
+		<br />
+		<div
+			class="jobdetail-card col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4">
+			
+			<span class="jobdetail-heading">Job Title</span>
+			<br/>
+			{{jobDetail.jobTitle}} 
+			
+			<br />
+			<span class="jobdetail-nextline"></span>
+			
+			<span class="jobdetail-heading">Salary</span>
+			<br/>
+			{{jobDetail.salary}} 			
+			
+			<br />
+			<span class="jobdetail-nextline"></span> 
+			
+			<span class="jobdetail-heading">Location</span>
+			<br/>
+			{{jobDetail.location}}
+						
+			<br />
+			<span class="jobdetail-nextline"></span>
+			
+			<span class="jobdetail-heading">Posted</span>
+			<br/>
+			{{jobDetail.postedOn | date:'dd MMMM, yyyy'}}	
+			
+			<br />
+			<span class="jobdetail-nextline"></span>
+						
+			<span class="jobdetail-heading">Qualification</span>
+			<br/> 
+			{{jobDetail.qualification}}		
+			
+			<br />
+			<span class="jobdetail-nextline"></span>
+			
+			<span class="jobdetail-heading">Job	Description</span>
+			<br/> 
+			{{jobDetail.jobDescription}} 
+			<br />
+			<span class="jobdetail-nextline"></span>
+			
+			<span class="jobdetail-heading">Job	Status</span>
+			<br/> 
+			{{jobDetail.status}} 
+			
+		</div>
+	</div>
+</body>
+</html>
